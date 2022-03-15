@@ -53,7 +53,7 @@ $bloginfo_css = get_bloginfo('stylesheet_directory');
     </div>
   </nav>
 
-  <section class="sobre text-center">
+  <section class="topo text-center">
     <div class="container">
       <div class="foto">
         <img src="<?php echo $bloginfo_css; ?>/assets/images/profile.jpeg"
@@ -65,6 +65,78 @@ $bloginfo_css = get_bloginfo('stylesheet_directory');
       <a class="btn-padrao" href="#">Entre em contato</a>
     </div>
   </section>
+
+  <section class="sobre">
+    <div class="container container-wrapper">
+      <h2>Sobre mim</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis
+        dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam,
+        integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. </p>
+      <br>
+      <div class="habilidades">
+        <h3>Habilidades</h3><br>
+
+        <h4>Ferramentas</h4>
+        <p><i>➤</i> Autocad</p>
+        <p><i>➤</i> Photoshop</p>
+        <h4>Metodologias</h4>
+        <p><i>➤</i> SCRUM</p>
+        <p><i>➤</i> KANBAN</p>
+        <h4>Banco de Dados</h4>
+        <p><i>➤</i> MongoDB</p>
+        <p><i>➤</i> MySQL</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos">
+    <div class="container container-wrapper">
+      <h2>Projetos</h2>
+
+      <div>
+        <img src="<?php echo $bloginfo_css; ?>/assets/images/projeto-1.jpg" alt="Empresa Solarr: Atendemos todo o Brasil
+          oferecendo energia solar de maneira
+          simples e eficiente ">
+        <h3>Solarr</h3>
+        <p>Landing page criada para a empresa Solarr, com intuído de captação de leads.</p>
+        <a class="" href="https://solarr.com.br" target="_blank"><i>🌐</i> Acessar</a>
+      </div>
+    </div>
+    <a class="btn-padrao" href="#">Ver todos projetos</a>
+  </section>
+
+  <section class="blog text-center">
+    <div class="container container-wrapper">
+      <h2>Últimas postagens</h2>
+      <div class="posts">
+        <a href="#">
+          <span class="d-inline">14/03/2022 - </span>
+          <p class="d-inline">Uma postagem interessante</p>
+        </a><br>
+        <a href="#">
+          <span class="d-inline">14/03/2022 - </span>
+          <p class="d-inline">Uma postagem interessante</p>
+        </a><br>
+        <a href="#">
+          <span class="d-inline">14/03/2022 - </span>
+          <p class="d-inline">Uma postagem interessante</p>
+        </a><br>
+        <a href="#">
+          <span class="d-inline">14/03/2022 - </span>
+          <p class="d-inline">Uma postagem interessante</p>
+        </a>
+      </div>
+    </div>
+
+    <a class="btn-padrao" href="#">Ver todas postagens</a>
+  </section>
+
+  <footer>
+    <p>Desafio para a Hand Talk</p>
+  </footer>
+
+
+
 
   <script src="<?php echo $bloginfo_css; ?>/assets/js/jquery.js"></script>
   <script src="<?php echo $bloginfo_css; ?>/assets/js/bootstrap.js""></script>

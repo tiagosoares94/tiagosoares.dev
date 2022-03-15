@@ -2,6 +2,11 @@
 
 html, body {
   font-family: 'Lato', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.sobre, .blog, .postagens, .projetos {
+  padding: 0 24px;
 }
 
 .btn-padrao {
@@ -13,7 +18,36 @@ html, body {
   display: block;
   width: 135px;
   margin: 42px auto 72px;
+  min-width: 150px;
 }
+
+.btn-padrao:hover {
+  color: white;
+  text-decoration: none;
+  background: red;
+}
+
+.container-wrapper {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 32px 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.sobre h2, .projetos h2, .blog h2 {
+  font-weight: 800;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
 
 /* HEADER */
 
@@ -23,7 +57,7 @@ html, body {
   }
 }
 
-/* SOBRE */
+/* TOPO */
 
 .foto {
   width: 200px;
@@ -40,6 +74,104 @@ html, body {
   height: 100%;
 }
 
-.sobre h1 {
+.topo h1 {
   font-weight: 800;
+  font-size: 34px;
+}
+
+/* SOBRE MIM */
+
+/* .sobre .container {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 32px 20px;
+} */
+
+.sobre h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.sobre h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.habilidades p {
+  margin-left: 20px;
+}
+
+.habilidades i {
+  font-size: 10px;
+  margin-right: 5px;
+  color: red;
+}
+
+/* PROJETOS */
+
+.projetos {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.projetos img {
+  /* width: 100%; */
+  max-width: 350px;
+  border: 2px #55565A solid;
+}
+
+.projetos h3 {
+  margin-top: 30px;
+}
+
+@media(max-width:976px){
+  .projetos p {
+    text-align: left;
+  }
+  .projetos img {
+    width: 100%;
+  }
+}
+
+.projetos i {
+  font-style: normal;
+}
+
+.projetos a:hover {
+  text-decoration: none;
+}
+
+/* BLOG */
+
+.posts a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.posts a:hover, .posts p:hover {
+  color: red;
+}
+
+@media(max-width:976px){
+  .posts {
+    text-align: left !important;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  height: 73px;
+  background-color: #323232;
+  text-align: center;
+}
+
+footer p {
+  color: white !important;
+  margin-bottom: 0;
+  padding: 27px 0;
 }
