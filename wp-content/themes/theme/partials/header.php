@@ -45,7 +45,7 @@ $bloginfo_css = get_bloginfo('stylesheet_directory');
             <a class="nav-link" href="<?php echo $bloginfo_url; ?>/index.php/blog-posts">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="<?php echo $bloginfo_url; ?>/index.php/contato">Contato</a>
           </li>
         </ul>
       </div>
