@@ -39,10 +39,10 @@ $bloginfo_css = get_bloginfo('stylesheet_directory');
             <a class="nav-link" href="<?php echo $bloginfo_url; ?>/index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $bloginfo_css; ?>/projetos"">Projetos</a>
+            <a class="nav-link" href="<?php echo $bloginfo_url; ?>/index.php/projetos"">Projetos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $bloginfo_css; ?>/blog-posts">Blog</a>
+            <a class="nav-link" href="<?php echo $bloginfo_url; ?>/index.php/blog-posts">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contato</a>

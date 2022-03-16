@@ -98,6 +98,10 @@ p {
   margin-top: 20px;
 }
 
+.sobre h4:first-child {
+  margin-top: 0 !important;
+}
+
 .habilidades i {
   margin-left: 20px;
 }

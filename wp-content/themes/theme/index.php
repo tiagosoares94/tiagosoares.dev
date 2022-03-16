@@ -80,7 +80,7 @@
     <?php endwhile; wp_reset_query(); ?>
     </div>
   </div>
-  <a class="btn-padrao" href="<?php echo $bloginfo_css; ?>/projetos">Ver todos projetos</a>
+  <a class="btn-padrao" href="<?php echo $bloginfo_url; ?>/index.php/projetos">Ver todos projetos</a>
 </section>
 
 
@@ -107,7 +107,7 @@
     </div>
   </div>
 
-  <a class="btn-padrao" href="<?php echo $bloginfo_css; ?>/blog-posts">Ver todas postagens</a>
+  <a class="btn-padrao" href="<?php echo $bloginfo_url; ?>/index.php/blog-posts">Ver todas postagens</a>
 </section>
 
 <?php include("partials/footer.php"); ?>
