@@ -19,7 +19,7 @@
         ?>
 
       <style>
-        h2, h1 {
+        h2 {
           color: <?php echo $cor; ?> !important;
         }
       </style>
