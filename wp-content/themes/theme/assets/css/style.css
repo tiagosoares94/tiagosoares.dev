@@ -39,7 +39,6 @@ html, body {
 
 p {
   font-size: 16px;
-  line-height: 19px;
   color: #000000;
 }
 
@@ -95,11 +94,7 @@ p {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  margin-top: 20px;
-}
-
-.sobre h4:first-child {
-  margin-top: 0 !important;
+  margin-top: 8px;
 }
 
 .habilidades i {
@@ -145,11 +140,6 @@ p {
   text-decoration: none;
 }
 
-/* Page: PROJETOS */
-
-
-
-
 /* BLOG */
 
 .posts a {
@@ -175,6 +165,10 @@ article, .blog-posts {
 
 article img {
   width: 100%;
+}
+
+article p {
+  line-height: 1.5 !important;
 }
 
 @media(max-width:767px){

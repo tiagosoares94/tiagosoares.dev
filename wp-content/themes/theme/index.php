@@ -26,7 +26,7 @@
     <small>
       <?php echo $cargo; ?>
     </small>
-    <a class="btn-padrao" href="#">Entre em contato</a>
+    <a class="btn-padrao" href="<?php echo $bloginfo_url; ?>/index.php/contato">Entre em contato</a>
   </div>
 </section>
 
