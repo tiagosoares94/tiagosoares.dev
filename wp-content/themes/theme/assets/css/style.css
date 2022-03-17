@@ -230,3 +230,7 @@ footer a:hover {
   text-decoration: none;
   color: blue;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}

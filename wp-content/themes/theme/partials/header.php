@@ -10,12 +10,13 @@ $bloginfo_css = get_bloginfo('stylesheet_directory');
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="<?php echo $bloginfo_url; ?>/favicon.ico" type="image/x-icon">
+  <meta name="description" content="O desenvolvedor WordPress que você precisa. Traga o seu negócio para o mundo digital.">
   <title>TiagoSoares.dev - Desenvolvedor Wordpress</title>
 
-  <link rel="stylesheet" href="<?php echo $bloginfo_css; ?>/assets/css/bootstrap.css" type="text/css" charset="utf-8">
-  <link rel="stylesheet" href="<?php echo $bloginfo_css; ?>/assets/css/style.css" type="text/css" charset="utf-8">
-  <link rel="stylesheet" href="<?php echo $bloginfo_css; ?>/assets/css/fontawesome.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="<?php echo $bloginfo_css; ?>/assets/css/concat.css" type="text/css" charset="utf-8">
+  <!-- <link rel="stylesheet" href="<?php echo $bloginfo_css; ?>/assets/css/bootstrap.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="<?php echo $bloginfo_css; ?>/assets/css/style.css" type="text/css" charset="utf-8"> -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

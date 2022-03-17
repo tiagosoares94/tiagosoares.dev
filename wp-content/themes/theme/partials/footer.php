@@ -3,6 +3,7 @@
 </footer>
 
 
+<script src="<?php echo $bloginfo_css; ?>/assets/js/concat.js""></script>
 
-<script src="<?php echo $bloginfo_css; ?>/assets/js/jquery.js"></script>
-<script src="<?php echo $bloginfo_css; ?>/assets/js/bootstrap.js""></script>
+<!-- <script src="<?php echo $bloginfo_css; ?>/assets/js/jquery.js"></script>
+<script src="<?php echo $bloginfo_css; ?>/assets/js/bootstrap.js""></script> -->
