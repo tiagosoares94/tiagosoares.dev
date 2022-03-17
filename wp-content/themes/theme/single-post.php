@@ -9,7 +9,6 @@
     wpb_set_post_views(get_the_ID());
   ?>
 
-
   <article id="content" class="container">
     <h1 class="text-center">
       <?php echo get_the_title(); ?>

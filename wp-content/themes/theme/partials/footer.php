@@ -1,5 +1,5 @@
 <footer>
-  <p>Desafio para a Hand Talk</p>
+   <p>Desafio para a <a href="https://handtalk.me" target="_blank">Hand Talk</a></p>
 </footer>
 
 

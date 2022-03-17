@@ -13,7 +13,7 @@
     <?php while($wp_query->have_posts()) : $wp_query->the_post();
       $page_id = get_the_ID();
     ?>
-    <div class="col-projetos mb-5 card-projeto">
+    <div class="mb-5 card-projeto container-wrapper">
       <img src="<?php echo get_field('foto_do_projeto', $id_page)['url'] ?>"
         alt="<?php echo get_field('foto_do_projeto', $id_page)['alt'] ?>">
       <h3>
@@ -23,7 +23,6 @@
         <?php echo get_field('descricao_do_projeto', $id_page); ?>
       </p>
       <a href="<?php echo get_field('link_do_projeto', $id_page); ?>" target="_blank"><i>🌐</i> Acessar</a>
-      <hr>
     </div>
     <?php endwhile; wp_reset_query(); ?>
 

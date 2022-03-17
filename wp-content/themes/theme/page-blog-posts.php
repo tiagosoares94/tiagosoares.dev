@@ -11,7 +11,7 @@
 
 <section class="container blog-posts">
   <div class="row">
-    <div class="col-sm-12 col-md-6">
+    <div class="container-wrapper ultimas-postagens">
       <h2>Últimas Postagens</h2>
       <?php while($wp_query->have_posts()) : $wp_query->the_post(); ?>
       <a href="<?php echo get_the_permalink(); ?>">
@@ -25,7 +25,7 @@
       <?php endwhile; wp_reset_query(); ?><br>
     </div>
 
-    <div class="col-sm-12 col-md-6">
+    <div class="container-wrapper mais-lidas">
       <h2>Postagens mais lidas</h2>
 
       <?php

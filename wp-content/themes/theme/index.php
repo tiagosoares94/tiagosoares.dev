@@ -3,9 +3,11 @@
 <section class="topo text-center">
   <div class="container">
     <div class="foto">
+
       <?php
           $page_id = get_page_by_title( 'Home' )->ID;
           $image = get_field('foto', $page_id);
+          $cor = get_field('cor', $page_id);
           $nome = get_field('nome', $page_id);
           $cargo = get_field('cargo', $page_id);
           $sobre = get_field('sobre', $page_id);
@@ -15,6 +17,12 @@
           $url = $image['url'];
           $alt = $image['alt'];
         ?>
+
+      <style>
+        h2, h1 {
+          color: <?php echo $cor; ?> !important;
+        }
+      </style>
 
       <img src="<?php echo $url; ?>" alt="<?php echo $alt; ?>">
     </div>
