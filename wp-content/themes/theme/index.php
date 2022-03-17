@@ -36,7 +36,7 @@
     <?php echo $sobre; ?>
     <br>
     <div class="habilidades">
-      <h3>Habilidades</h3><br>
+      <h3>Habilidades</h3>
 
       <h4>Ferramentas</h4>
       <i>➤</i>
