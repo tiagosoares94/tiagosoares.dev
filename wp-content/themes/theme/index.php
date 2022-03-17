@@ -5,7 +5,7 @@
     <div class="foto">
 
       <?php
-          $page_id = get_page_by_title( 'teste' )->ID;
+          $page_id = get_page_by_title( 'home' )->ID;
           $image = get_field('foto', $page_id);
           $cor = get_field('cor', $page_id);
           $nome = get_field('nome', $page_id);
