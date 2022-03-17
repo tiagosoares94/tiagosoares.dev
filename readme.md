@@ -1,10 +1,10 @@
 # Projeto Hand Talk
 
-Projeto para o processo seletivo para a empresa [Hand Talk](https://handtalk.me).
+Projeto para o processo seletivo da empresa [Hand Talk](https://handtalk.me).
 
 ---
 
-## Built With
+## 🛠️  Built With
 
 - PHP
 - WordPress
@@ -12,6 +12,6 @@ Projeto para o processo seletivo para a empresa [Hand Talk](https://handtalk.me)
 
 ---
 
-## Live Demo
+## 🌎  Live Demo
 
 [tiagosoares.dev](https://tiagosoares.dev)
